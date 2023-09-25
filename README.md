@@ -5,171 +5,184 @@ A página possui banner, três sessões (Serviços, Portifólio e Contatos), al�
 
 Link: https://thiagoresende88.github.io/Primeiro_site/ 
 
-## 🚀 Estrutura das Tags HTML
+---
 
-<!DOCTYPE html>: Declara o tipo de documento HTML sendo usado, que é o HTML5.
+# Estrutura do Código HTML e CSS 🚀
 
-<html lang="pt-BR">: Define o elemento raiz da página HTML e especifica o idioma como português do Brasil.
+Aqui está uma explicação da estrutura do código HTML e CSS usado neste projeto:
 
-<head>: Contém informações sobre o documento, como metadados, links para folhas de estilo CSS e o título da página.
+## HTML:
 
-<meta charset="UTF-8">: Define o conjunto de caracteres como UTF-8, que permite a exibição de caracteres especiais.
+- `<!DOCTYPE html>`: Declara o tipo de documento HTML sendo usado, que é o HTML5.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: Define as configurações de visualização da página para dispositivos móveis.
+- `<html lang="pt-BR">`: Define o elemento raiz da página HTML e especifica o idioma como português do Brasil.
 
-<title>Marketing Digital XYZ</title>: Define o título da página que aparece na barra de título do navegador.
+- `<head>`: Contém informações sobre o documento, como metadados, links para folhas de estilo CSS e o título da página.
 
-<link rel="stylesheet" href="style.css">: Importa uma folha de estilo externa chamada "style.css" para estilizar a página.
+  - `<meta charset="UTF-8">`: Define o conjunto de caracteres como UTF-8, que permite a exibição de caracteres especiais.
 
-<body>: Contém todo o conteúdo visível da página.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Define as configurações de visualização da página para dispositivos móveis.
 
-<header>: Geralmente contém o cabeçalho da página, que pode incluir o logotipo e a navegação.
+  - `<title>Marketing Digital XYZ</title>`: Define o título da página que aparece na barra de título do navegador.
 
-<nav>: Define a navegação principal da página.
+  - `<link rel="stylesheet" href="style.css">`: Importa uma folha de estilo externa chamada "style.css" para estilizar a página.
 
-<div class="container">: Cria um contêiner para agrupar o conteúdo do cabeçalho.
+- `<body>`: Contém todo o conteúdo visível da página.
 
-<h1>Marketing Digital XYZ</h1>: O cabeçalho principal da página, que normalmente é o logotipo ou um título.
+  - `<header>`: Geralmente contém o cabeçalho da página, que pode incluir o logotipo e a navegação.
 
-<ul>: Uma lista não ordenada que geralmente contém links de navegação.
+    - `<nav>`: Define a navegação principal da página.
 
-<li><a href="#services">Serviços</a></li>: Um item da lista que contém um link para a seção "Serviços" da página.
+      - `<div class="container">`: Cria um contêiner para agrupar o conteúdo do cabeçalho.
 
-<section class="banner">: Uma seção de banner, que pode contendo uma  imagem de destaque.
+        - `<h1>Marketing Digital XYZ</h1>`: O cabeçalho principal da página, que normalmente é o logotipo ou um título.
 
-<section class="hero">: Uma seção herói, geralmente usada para destacar um título principal e uma chamada para ação.
+        - `<ul>`: Uma lista não ordenada que geralmente contém links de navegação.
 
-<section class="services" id="services">: Uma seção de serviços que contém informações sobre os serviços oferecidos.
+          - `<li><a href="#services">Serviços</a></li>`: Um item da lista que contém um link para a seção "Serviços" da página.
 
-<h2>Nossos Serviços</h2>: Um título para a seção de serviços.
+  - `<section class="banner">`: Uma seção de banner, que pode conter informações adicionais ou imagens de destaque.
 
-<div class="service">: Cada serviço é representado por um elemento div com a classe "service".
+  - `<section class="hero">`: Uma seção herói, geralmente usada para destacar um título principal e uma chamada para ação.
 
-<img src="SEO.jpg" alt="Serviço 1">: Uma imagem representando o serviço de otimização de SEO.
+  - `<section class="services" id="services">`: Uma seção de serviços que contém informações sobre os serviços oferecidos.
 
-<h3>Otimização de SEO</h3>: Um título para o serviço.
+    - `<div class="container">`: Um contêiner para agrupar os serviços individuais.
 
-<p>Maximize sua visibilidade nos motores de busca e alcance um público maior.</p>: Uma descrição do serviço.
+      - `<h2>Nossos Serviços</h2>`: Um título para a seção de serviços.
 
-<section class="portfolio" id="portfolio">: Uma seção de portfólio que mostra projetos anteriores.
+      - `<div class="service">`: Cada serviço é representado por um elemento div com a classe "service".
 
-<div class="container">: Um contêiner para agrupar os itens do portfólio.
+        - `<img src="SEO.jpg" alt="Serviço 1">`: Uma imagem representando o serviço de otimização de SEO.
 
-<h2>Portfólio</h2>: Um título para a seção de portfólio.
+        - `<h3>Otimização de SEO</h3>`: Um título para o serviço.
 
-<div class="portfolio-item">: Cada item do portfólio é representado por um elemento div com a classe "portfolio-item".
+        - `<p>Maximize sua visibilidade nos motores de busca e alcance um público maior.</p>`: Uma descrição do serviço.
 
-<img src="cliente1.avif" alt="Projeto 1">: Uma imagem representando o primeiro projeto.
+  - `<section class="portfolio" id="portfolio">`: Uma seção de portfólio que mostra projetos anteriores.
 
-<h3>Cliente A</h3>: O nome do cliente ou título do projeto.
+    - `<div class="container">`: Um contêiner para agrupar os itens do portfólio.
 
-<p>Veja como ajudamos o Cliente A a alcançar um aumento de 50% nas vendas.</p>: Uma descrição do projeto.
+      - `<h2>Portfólio</h2>`: Um título para a seção de portfólio.
 
-<section class="contact" id="contact">: Uma seção de contato que fornece informações de contato.
+      - `<div class="portfolio-item">`: Cada item do portfólio é representado por um elemento div com a classe "portfolio-item".
 
-<h2>Entre em Contato</h2>: Um título para a seção de contato.
+        - `<img src="cliente1.avif" alt="Projeto 1">`: Uma imagem representando o primeiro projeto.
 
-<p>Estamos prontos para ajudar a impulsionar o seu negócio. Entre em contato conosco hoje mesmo.</p>: Uma descrição ou mensagem de contato.
+        - `<h3>Cliente A</h3>`: O nome do cliente ou título do projeto.
 
-<a href="mailto:contato@marketingxyz.com" class="cta-button">Email: contato@marketingxyz.com</a>: Um link de e-mail para contato.
+        - `<p>Veja como ajudamos o Cliente A a alcançar um aumento de 50% nas vendas.</p>`: Uma descrição do projeto.
 
-<a href="tel:+5555555555" class="cta-button">Telefone: (55) 5555-5555</a>: Um link de telefone para contato.
+  - `<section class="contact" id="contact">`: Uma seção de contato que fornece informações de contato.
 
-<footer>: Geralmente contém informações de rodapé.
+    - `<div class="container">`: Um contêiner para agrupar as informações de contato.
 
-<div class="container">: Um contêiner para agrupar o conteúdo do rodapé.
+      - `<h2>Entre em Contato</h2>`: Um título para a seção de contato.
 
-<p>&copy; 2023 Marketing Digital XYZ</p>: Informações de direitos autorais.
+      - `<p>Estamos prontos para ajudar a impulsionar o seu negócio. Entre em contato conosco hoje mesmo.</p>`: Uma descrição ou mensagem de contato.
 
-<p>Thiago Dias Resende</p>: Nome do autor e desenvolvedor da página.
+      - `<a href="mailto:contato@marketingxyz.com" class="cta-button">Email: contato@marketingxyz.com</a>`: Um link de e-mail para contato.
 
-### 📋 Estrutura de Seletores CSS
+      - `<a href="tel:+5555555555" class="cta-button">Telefone: (55) 5555-5555</a>`: Um link de telefone para contato.
 
-*Reset de Estilos:*
+  - `<footer>`: Geralmente contém informações de rodapé.
 
-Seleciona todos os elementos na página. Os estilos definidos aqui são usados para zerar margens, preenchimentos e definir a caixa de modelo como "border-box" para todos os elementos. Isso ajuda a garantir uma base consistente para o layout.
+    - `<div class="container">`: Um contêiner para agrupar o conteúdo do rodapé.
 
-*Estilos Gerais:*
+      - `<p>&copy; 2023 Marketing Digital XYZ</p>`: Informações de direitos autorais.
 
-body: Seleciona o elemento <body> e define a família de fontes para o corpo do documento.
+      - `<p>Thiago Dias Resende</p>`: Nome do autor e desenvolvedor da página.
 
-.container: Seleciona elementos com a classe "container". Define a largura máxima, margem e preenchimento para elementos com essa classe. Isso é frequentemente usado para criar layouts responsivos e centralizar o conteúdo.
+## 📋 CSS
 
-*Estilos do Header:*
+Aqui está a explicação da estrutura dos seletores CSS usados neste projeto:
 
-header: Seleciona o elemento <header>. Define o fundo, cor do texto e preenchimento para o cabeçalho da página.
+### Reset de Estilos:
 
-nav ul: Seleciona listas não ordenadas dentro de elementos <nav>. Remove os marcadores de lista padrão.
+- `*`: Seleciona todos os elementos na página. Os estilos definidos aqui são usados para zerar margens, preenchimentos e definir a caixa de modelo como "border-box" para todos os elementos. Isso ajuda a garantir uma base consistente para o layout.
 
-nav ul li: Seleciona itens de lista dentro da lista de navegação. Define-os como elementos em linha com margem direita.
+### Estilos Gerais:
 
-nav a: Seleciona links dentro do elemento de navegação. Define a cor do texto e remove a decoração de texto (sublinhado).
+- `body`: Seleciona o elemento `<body>` e define a família de fontes para o corpo do documento.
 
-*Estilos da Seção Banner:*
+- `.container`: Seleciona elementos com a classe "container". Define a largura máxima, margem e preenchimento para elementos com essa classe. Isso é frequentemente usado para criar layouts responsivos e centralizar o conteúdo.
 
-.banner: Seleciona elementos com a classe "banner". Define o fundo do banner, o tamanho da imagem de fundo e o preenchimento para criar um banner destacado.
+### Estilos do Header:
 
-*Estilos da Seção Hero:*
+- `header`: Seleciona o elemento `<header>`. Define o fundo, cor do texto e preenchimento para o cabeçalho da página.
 
-.hero: Seleciona elementos com a classe "hero". Define a cor do texto e o preenchimento para a seção "hero" da página.
+- `nav ul`: Seleciona listas não ordenadas dentro de elementos `<nav>`. Remove os marcadores de lista padrão.
 
-.hero h2: Seleciona elementos h2 dentro da seção "hero" e ajusta o tamanho da fonte.
+- `nav ul li`: Seleciona itens de lista dentro da lista de navegação. Define-os como elementos em linha com margem direita.
 
-*Estilo dos Botões:*
+- `nav a`: Seleciona links dentro do elemento de navegação. Define a cor do texto e remove a decoração de texto (sublinhado).
 
-.cta-button: Seleciona elementos com a classe "cta-button", que são usados para criar botões de chamada para ação em várias seções do site.
+### Estilos da Seção Banner:
 
-display: flex;: Define a exibição como flexível para permitir o alinhamento e a distribuição de elementos filho dentro do botão.
+- `.banner`: Seleciona elementos com a classe "banner". Define o fundo do banner, o tamanho da imagem de fundo e o preenchimento para criar um banner destacado.
 
-padding: 10px 20px;: Define o preenchimento do botão, ou seja, o espaço interno entre o texto do botão e suas bordas.
+### Estilos da Seção Hero:
 
-background-color: #f00;: Define a cor de fundo do botão como vermelho (#f00).
+- `.hero`: Seleciona elementos com a classe "hero". Define a cor do texto e o preenchimento para a seção "hero" da página.
 
-color: #fff;: Define a cor do texto dentro do botão como branco (#fff).
+- `.hero h2`: Seleciona elementos `<h2>` dentro da seção "hero" e ajusta o tamanho da fonte.
 
-text-decoration: none;: Remove a decoração de texto, como sublinhado, dos botões.
+### Estilo dos Botões:
 
-margin-top: 20px;: Define uma margem superior de 20 pixels para separar os botões de outros elementos acima deles.
+- `.cta-button`: Seleciona elementos com a classe "cta-button", que são usados para criar botões de chamada para ação em várias seções do site.
 
-border-radius: 50px;: Define um raio de borda de 50 pixels, criando cantos arredondados para os botões.
+   - `display: flex;`: Define a exibição como flexível para permitir o alinhamento e a distribuição de elementos filho dentro do botão.
 
-font-weight: bold;: Define o peso da fonte como negrito para o texto do botão.
+   - `padding: 10px 20px;`: Define o preenchimento do botão, ou seja, o espaço interno entre o texto do botão e suas bordas.
 
-justify-content: center;: Centraliza o conteúdo dos botões horizontalmente.
+   - `background-color: #f00;`: Define a cor de fundo do botão como vermelho (#f00).
 
-width: 50%;: Define a largura dos botões como 50% da largura do contêiner pai. Isso faz com que os botões tenham um tamanho relativo ao seu contêiner, tornando-os responsivos.
+   - `color: #fff;`: Define a cor do texto dentro do botão como branco (#fff).
 
-*Estilos da Seção Services:*
+   - `text-decoration: none;`: Remove a decoração de texto, como sublinhado, dos botões.
 
-.services: Seleciona elementos com a classe "services". Define o fundo da seção de serviços e o preenchimento.
+   - `margin-top: 20px;`: Define uma margem superior de 20 pixels para separar os botões de outros elementos acima deles.
 
-.services h2: Seleciona elementos h2 dentro da seção de serviços e centraliza o texto.
+   - `border-radius: 50px;`: Define um raio de borda de 50 pixels, criando cantos arredondados para os botões.
 
-.service: Seleciona elementos com a classe "service", que são usados para representar cada serviço oferecido. Define o alinhamento do texto e margem ao redor dos elementos de serviço.
+   - `font-weight: bold;`: Define o peso da fonte como negrito para o texto do botão.
 
-.service img: Seleciona imagens dentro dos elementos de serviço e ajusta a largura máxima das imagens para que se ajustem ao contêiner.
+   - `justify-content: center;`: Centraliza o conteúdo dos botões horizontalmente.
 
-*Estilos da Seção Portfolio:*
+   - `width: 50%;`: Define a largura dos botões como 50% da largura do contêiner pai. Isso faz com que os botões tenham um tamanho relativo ao seu contêiner, tornando-os responsivos.
 
-.portfolio: Seleciona elementos com a classe "portfolio". Define o preenchimento para a seção de portfólio.
+### Estilos da Seção Services:
 
-.portfolio h2: Seleciona elementos h2 dentro da seção de portfólio e centraliza o texto.
+- `.services`: Seleciona elementos com a classe "services". Define o fundo da seção de serviços e o preenchimento.
 
-.portfolio-item: Seleciona elementos com a classe "portfolio-item", que representam itens individuais no portfólio. Define margem ao redor dos itens.
+- `.services h2`: Seleciona elementos `<h2>` dentro da seção de serviços e centraliza o texto.
 
-.portfolio-item img: Seleciona imagens dentro dos itens do portfólio e ajusta a largura máxima das imagens.
+- `.service`: Seleciona elementos com a classe "service", que são usados para representar cada serviço oferecido. Define o alinhamento do texto e margem ao redor dos elementos de serviço.
 
-*Estilos da Seção Contact:*
+- `.service img`: Seleciona imagens dentro dos elementos de serviço e ajusta a largura máxima das imagens para que se ajustem ao contêiner.
 
-.contact: Seleciona elementos com a classe "contact". Define o fundo, cor do texto e preenchimento para a seção de contato.
+### Estilos da Seção Portfolio:
 
-.contact h2: Seleciona elementos h2 dentro da seção de contato e centraliza o texto.
+- `.portfolio`: Seleciona elementos com a classe "portfolio". Define o preenchimento para a seção de portfólio.
 
-.contact p: Seleciona parágrafos dentro da seção de contato e centraliza o texto.
+- `.portfolio h2`: Seleciona elementos `<h2>` dentro da seção de portfólio e centraliza o texto.
 
-*Estilos do Footer:*
+- `.portfolio-item`: Seleciona elementos com a classe "portfolio-item", que representam itens individuais no portfólio. Define margem ao redor dos itens.
 
-footer: Seleciona elementos footer. Define o fundo, cor do texto e alinhamento do texto para o rodapé da página.
+- `.portfolio-item img`: Seleciona imagens dentro dos itens do portfólio e ajusta a largura máxima das imagens.
+
+### Estilos da Seção Contact:
+
+- `.contact`: Seleciona elementos com a classe "contact". Define o fundo, cor do texto e preenchimento para a seção de contato.
+
+- `.contact h2`: Seleciona elementos `<h2>` dentro da seção de contato e centraliza o texto.
+
+- `.contact p`: Seleciona parágrafos dentro da seção de contato e centraliza o texto.
+
+### Estilos do Footer:
+
+- `footer`: Seleciona elementos `<footer>`. Define o fundo, cor do texto e alinhamento do texto para o rodapé da página.
 
 ---
+
 ⌨️ com ❤️ por [Thiago Dias Resende](https://github.com/ThiagoResende88) 😊
