@@ -1,6 +1,6 @@
-# # Título do projeto
+## Agência de Marketing Digital XYZ
 
-Um parágrafo da descrição do projeto vai aqui
+Temos aqui uma página exemplo para uma agência de Marketing Digital. A página possui banner, três sessões (Serviços, Portifólio e Contatos), além da header e botões clicáveis. 
 
 ## 🚀 Começando
 
