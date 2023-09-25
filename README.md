@@ -113,7 +113,7 @@ nav a: Seleciona links dentro do elemento de navegação. Define a cor do texto 
 
 .hero: Seleciona elementos com a classe "hero". Define a cor do texto e o preenchimento para a seção "hero" da página.
 
-.hero h2: Seleciona elementos <h2> dentro da seção "hero" e ajusta o tamanho da fonte.
+.hero h2: Seleciona elementos dentro da seção "hero" e ajusta o tamanho da fonte.
 
 *Estilo dos Botões:*
 
