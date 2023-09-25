@@ -54,7 +54,7 @@ nav a {
 }
 
 .cta-button {
-    display: inline-block;
+    display: flex;
     padding: 10px 20px;
     background-color: #f00;
     color: #fff;
@@ -62,7 +62,9 @@ nav a {
     margin-top: 20px;
     border-radius: 50px;
     font-weight: bold;
-}
+    justify-content: center;
+    width: 50%;
+    }
 
 /* Estilos da Seção Services */
 .services {
