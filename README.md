@@ -113,7 +113,7 @@ nav a: Seleciona links dentro do elemento de navegação. Define a cor do texto 
 
 .hero: Seleciona elementos com a classe "hero". Define a cor do texto e o preenchimento para a seção "hero" da página.
 
-.hero h2: Seleciona elementos dentro da seção "hero" e ajusta o tamanho da fonte.
+.hero h2: Seleciona elementos h2 dentro da seção "hero" e ajusta o tamanho da fonte.
 
 *Estilo dos Botões:*
 
@@ -143,7 +143,7 @@ width: 50%;: Define a largura dos botões como 50% da largura do contêiner pai.
 
 .services: Seleciona elementos com a classe "services". Define o fundo da seção de serviços e o preenchimento.
 
-.services h2: Seleciona elementos <h2> dentro da seção de serviços e centraliza o texto.
+.services h2: Seleciona elementos h2 dentro da seção de serviços e centraliza o texto.
 
 .service: Seleciona elementos com a classe "service", que são usados para representar cada serviço oferecido. Define o alinhamento do texto e margem ao redor dos elementos de serviço.
 
@@ -153,7 +153,7 @@ width: 50%;: Define a largura dos botões como 50% da largura do contêiner pai.
 
 .portfolio: Seleciona elementos com a classe "portfolio". Define o preenchimento para a seção de portfólio.
 
-.portfolio h2: Seleciona elementos <h2> dentro da seção de portfólio e centraliza o texto.
+.portfolio h2: Seleciona elementos h2 dentro da seção de portfólio e centraliza o texto.
 
 .portfolio-item: Seleciona elementos com a classe "portfolio-item", que representam itens individuais no portfólio. Define margem ao redor dos itens.
 
@@ -163,13 +163,13 @@ width: 50%;: Define a largura dos botões como 50% da largura do contêiner pai.
 
 .contact: Seleciona elementos com a classe "contact". Define o fundo, cor do texto e preenchimento para a seção de contato.
 
-.contact h2: Seleciona elementos <h2> dentro da seção de contato e centraliza o texto.
+.contact h2: Seleciona elementos h2 dentro da seção de contato e centraliza o texto.
 
 .contact p: Seleciona parágrafos dentro da seção de contato e centraliza o texto.
 
 *Estilos do Footer:*
 
-footer: Seleciona elementos <footer>. Define o fundo, cor do texto e alinhamento do texto para o rodapé da página.
+footer: Seleciona elementos footer. Define o fundo, cor do texto e alinhamento do texto para o rodapé da página.
 
 ---
 ⌨️ com ❤️ por [Thiago Dias Resende](https://github.com/ThiagoResende88) 😊
