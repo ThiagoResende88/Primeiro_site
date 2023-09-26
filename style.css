@@ -14,6 +14,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Estilos do Header */
@@ -41,6 +45,7 @@ nav a {
     background-size: cover;
     background-position: center;
     padding: 150px 0;
+    width: auto;
 }
 /* Estilos da Seção Hero */
 .hero {
@@ -63,8 +68,8 @@ nav a {
     border-radius: 50px;
     font-weight: bold;
     justify-content: center;
-    width: 50%;
-    }
+    width: 30%;
+}
 
 /* Estilos da Seção Services */
 .services {

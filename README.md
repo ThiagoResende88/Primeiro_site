@@ -149,8 +149,6 @@ Aqui está a explicação da estrutura dos seletores CSS usados neste projeto:
 
    - `justify-content: center;`: Centraliza o conteúdo dos botões horizontalmente.
 
-   - `width: 50%;`: Define a largura dos botões como 50% da largura do contêiner pai. Isso faz com que os botões tenham um tamanho relativo ao seu contêiner, tornando-os responsivos.
-
 ### Estilos da Seção Services:
 
 - `.services`: Seleciona elementos com a classe "services". Define o fundo da seção de serviços e o preenchimento.
